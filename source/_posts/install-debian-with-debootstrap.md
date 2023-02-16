@@ -14,8 +14,17 @@ tags: Debian
 
 ## 准备
 
-1. [Ubuntu](https://ubuntu.com/) 启动盘。启动后通过 `sudo su` 进入超级用户模式。
-2. Ubuntu 内安装：`debootstrap`，`arch-install-scripts`
+1. Debian 启动盘。启动后通过 `sudo su` 进入超级用户模式。
+
+    国内用户可以去镜像站下载 **带非自由固件的** 镜像，保证系统启动后能够正常连接网络。
+    
+    在此推荐使用 KDE Live 镜像和 GNOME Live 镜像。
+
+    [USTC open source software mirror](http://mirrors.ustc.edu.cn/)
+
+    本教程安装的系统采用 grub UEFI 启动，在引导启动盘前需先检查主机是否开启 UEFI/GPT 启动模式，进入 Live 系统后亦可执行必要的检查，具体可以参考：[GrubEFIReinstall](https://wiki.debian.org/GrubEFIReinstall)。
+
+2. Debian 内安装：`debootstrap`，`arch-install-scripts`（为保证下载速度，国内用户需要改换软件源：[Debian 源使用帮助](http://mirrors.ustc.edu.cn/help/debian.html)）。
 
     ```text
     apt install debootstrap arch-install-scripts
