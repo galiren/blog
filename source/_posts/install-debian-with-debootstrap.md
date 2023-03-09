@@ -240,6 +240,6 @@ reboot # 重启
 ```
 给出自己的桌面展示：
 
-![GNOME Desktop](https://s2.loli.net/2023/01/16/2SuCZYyeN5XP8Bb.png)
+![GNOME Desktop](https://pics.galiren.me/gnome-desktop.png)
 
 最后，虽然这话可能不该由我来说，但我依然要向看这篇小文且做到最后的读者表示衷心祝贺：欢迎进入 Debian 的世界！
