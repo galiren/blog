@@ -106,7 +106,7 @@ nano /etc/apt/sources.list
 deb https://mirrors.ustc.edu.cn/debian unstable main contrib non-free non-free-firmware
 ```
 
-<font color=red>\# 根据近期（2022）的一项 <a href="https://www.debian.org/vote/2022/vote_003#outcome">投票</a>，Debian 将在最新的镜像中包含非自由固件，用户可以选择是否启用对应的 `non-free-firmware` 新仓库。据此，已在 unstable 的用户如有需要，需在 `sources.list` 中新增 `non-free-firmware` 字段，启用新仓库以收到后续的非自由固件更新。**</font>
+<font color=red>\# 根据近期（2022）的一项 <a href="https://www.debian.org/vote/2022/vote_003#outcome">投票</a>，Debian 将在最新的镜像中包含非自由固件，用户可以选择是否启用对应的 `non-free-firmware` 新仓库。据此，已在 unstable 的用户如有需要，需在 `sources.list` 中新增 `non-free-firmware` 字段，启用新仓库以收到后续的非自由固件更新。</font>
 
 然后，更新缓存：
 
