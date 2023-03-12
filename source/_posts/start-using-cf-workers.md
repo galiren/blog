@@ -18,7 +18,7 @@ Cloudflare Dashboard 可以看到 Worker，然后抄一下 [文档](https://deve
 export default {
 	async fetch(request) {
 		const { pathname } = new URL(request.url);
-		return fetch(`hhttps://cdn.jsdelivr.net/gh/galiren/blog_assets@main/${pathname}`);
+		return fetch(`https://cdn.jsdelivr.net/gh/galiren/blog_assets@main/${pathname}`);
 	}
 };
 ```
